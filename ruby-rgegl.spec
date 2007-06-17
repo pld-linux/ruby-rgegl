@@ -7,8 +7,10 @@ License:	GPL or custom (see COPYING)
 Group:		Development/Languages
 Source0:	rgegl-%{version}.tar.gz
 # Source0-md5:	c4622a0cf604d4813d7d1ec3691f2fb7
-URL:		http://gegl.org/rgegl
+URL:		http://www.gegl.org/rgegl/
 BuildRequires:	gegl-devel
+BuildRequires:	gtk+2-devel >= 1:2.0
+BuildRequires:	pkgconfig
 BuildRequires:	rpmbuild(macros) >= 1.277
 BuildRequires:	ruby-devel >= 1:1.8
 %{?ruby_mod_ver_requires_eq}
